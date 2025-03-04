@@ -78,16 +78,16 @@ $country='';
             $mail->isSMTP();
  
             //Set the SMTP server to send through
-            $mail->Host = 'smtp.gmail.com';
+            $mail->Host = '';
  
             //Enable SMTP authentication
             $mail->SMTPAuth = true;
  
             //SMTP username
-            $mail->Username = 'powerpassive5@gmail.com';
+            $mail->Username = 'powerpassive5';
  
             //SMTP password
-            $mail->Password = 'bftfyywugbxtsrde';
+            $mail->Password = '';
  
             //Enable TLS encryption;
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
@@ -892,6 +892,7 @@ $(window).on('scroll', function () {
 				</div>
 				<div class="col-12" style="padding-top:0">
 					<hr>
+					<!---bftfyywugbxtsrde-------->
 					SUPPORTED PAYMENT METHODS<br>
 					<img src="images/5b55bb652af1a.png" style="width:40px">
 					<img src="images/1532345051h7.png" style="width:40px">
